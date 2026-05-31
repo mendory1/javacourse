@@ -38,8 +38,8 @@ public class Practice1_FinalMethod {
     public static void main(String[] args) {
         Child child = new Child();
         
-        child.normalMethod();   // Работает
-        child.finalMethod();    // Работает (унаследован от Parent)
+        child.normalMethod(); // Работает
+        child.finalMethod(); // Работает (унаследован от Parent)
         
         System.out.println("\nfinal-метод унаследован, но переопределить его нельзя");
     }
